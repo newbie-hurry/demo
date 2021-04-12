@@ -35,7 +35,7 @@ public class Java8Tester {
         GreetingService sayGoodbye = message -> System.out.println("goodBye!" + message);
 
         sayHello.sayMessage("java!");
-        sayGoodbye.sayMessage("LiuYao!");
+        sayGoodbye.sayMessage("shenzhen!");
 
 
     }
