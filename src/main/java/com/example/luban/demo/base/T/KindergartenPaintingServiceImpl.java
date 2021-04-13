@@ -14,5 +14,6 @@ public class KindergartenPaintingServiceImpl implements PaintingService{
     @Override
     public <T extends Fruits> void paint(T fruits) {
         System.out.println(""+ fruits.getColor());
+
     }
 }
